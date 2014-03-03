@@ -21,6 +21,7 @@
 		EF47DA8218C3FE3E0083B240 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF47DA6418C3FE3E0083B240 /* UIKit.framework */; };
 		EF47DA8A18C3FE3E0083B240 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF47DA8818C3FE3E0083B240 /* InfoPlist.strings */; };
 		EF47DA8C18C3FE3E0083B240 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DA8B18C3FE3E0083B240 /* Git_TestTests.m */; };
+		EF47DA9718C41CD50083B240 /* BYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EF47DA9618C41CD50083B240 /* BYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EF47DA8718C3FE3E0083B240 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		EF47DA8918C3FE3E0083B240 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF47DA8B18C3FE3E0083B240 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		EF47DA9518C41CD50083B240 /* BYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BYTest.h; path = ../BYTest.h; sourceTree = "<group>"; };
+		EF47DA9618C41CD50083B240 /* BYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BYTest.m; path = ../BYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		EF47DA6618C3FE3E0083B240 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				EF47DA9518C41CD50083B240 /* BYTest.h */,
+				EF47DA9618C41CD50083B240 /* BYTest.m */,
 				EF47DA6F18C3FE3E0083B240 /* BYAppDelegate.h */,
 				EF47DA7018C3FE3E0083B240 /* BYAppDelegate.m */,
 				EF47DA7218C3FE3E0083B240 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				EF47DA7718C3FE3E0083B240 /* BYViewController.m in Sources */,
 				EF47DA6D18C3FE3E0083B240 /* main.m in Sources */,
+				EF47DA9718C41CD50083B240 /* BYTest.m in Sources */,
 				EF47DA7118C3FE3E0083B240 /* BYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
